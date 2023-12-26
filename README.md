@@ -14,11 +14,11 @@
 The Airbnb Mobile Design Replica project aims to recreate the user interface, following the First-Mobile-Design methodology, utilizing HTML and CSS.
 
 ## Installation 
-Click this [Link](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for instruction to add bootstrap compiler.
+Click this [Link](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to see instruction on how to add bootstrap compiler.
 
 ## Visuals
 
-### Image of the project on mobile viewport.
+#### Image of the project on mobile viewport.
  
 ## License
 This project is covered by MIT.
@@ -26,6 +26,7 @@ This project is covered by MIT.
 ## Links
 
 ### Deployed website URL
+- https://chari00.github.io/Airbnb-mobile-design-copy/ 
 
 ### Project source code location
 - https://github.com/chari00/Airbnb-mobile-design-copy 
