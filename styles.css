@@ -44,4 +44,14 @@ img {
     padding: 5px 10px;
     font-size: 14px;
 }
+.heart-btn{
+    position: absolute;
+    float: right;
+    color: #717171;
+    margin-left: 370px;
+    margin-top: 10px;
+    opacity: 90%;
+    text-shadow: -2px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -2px #ffffff;
+}
+
 
