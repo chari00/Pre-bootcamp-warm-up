@@ -33,4 +33,15 @@ img {
     font-size: 4px;
 }
 
+.badge{
+    background-color: #fbf7f7;
+    float: left;
+    border: .05px solid #a6a4a4;
+    border-radius: 14px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
 
