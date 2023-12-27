@@ -14,7 +14,9 @@
 The Airbnb Mobile Design Replica project aims to recreate the user interface, following the First-Mobile-Design methodology, utilizing HTML and CSS.
 
 ## Installation 
-Click this [Link](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to see instruction on how to add bootstrap compiler.
+Click [HERE](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to see instruction on how to add bootstrap compiler.
+
+Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see instruction on how to add Font-awesome toolkit.
 
 ## Visuals
 
@@ -33,6 +35,7 @@ This project is covered by MIT.
 
 ### URL for resources
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
+- https://www.w3schools.com/icons/fontawesome_icons_intro.asp 
 
 ## Questions
 For questions and comments please contact the following details:
