@@ -28,10 +28,10 @@ This project is covered by MIT.
 ## Links
 
 ### Deployed website URL
-- https://chari00.github.io/Airbnb-mobile-design-copy/ 
+- https://chari00.github.io/Pre-bootcamp-warm-up/  
 
 ### Project source code location
-- https://github.com/chari00/Airbnb-mobile-design-copy 
+- https://github.com/chari00/Pre-bootcamp-warm-up  
 
 ### URL for resources
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
