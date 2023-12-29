@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Airbnb Mobile Design
+# Pre-bootcamp Warm-up
 
   ## Table of Content 
 - [Description](#Description)
@@ -11,7 +11,7 @@
 - [Questions](#Questions)
 
 ## Description
-The Airbnb Mobile Design Replica project aims to recreate the user interface, following the First-Mobile-Design methodology, utilizing HTML and CSS.
+The purpose of this project is to keep the bootcampers' HTML and CSS skills sharp by aiming to create a copy of the Airbnb homepage user interface, following the First-Mobile-Design methodology, utilizing HTML and CSS.
 
 ## Installation 
 Click [HERE](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to see instruction on how to add bootstrap compiler.
