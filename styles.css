@@ -1,9 +1,48 @@
 *{
     box-sizing: border-box;
-    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-family: 'lucida grande', tahoma, verdana, arial,'sans-serif';
     font-size: 16px;
     margin: 0;
     padding: 2px;
+}
+header{
+    display: grid;
+    grid-template-columns: 3.5fr 0.5fr;
+}
+.top-search-bar{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "search location location" 
+    "search guest guest";
+    border: .5px solid #ece6e6;
+    border-radius: 50px;
+    width: 90%;
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+.search-icon{
+    margin: auto;
+    grid-area: search;
+    
+}
+.location-input{
+    grid-area: location;
+    font-weight: bold;
+    
+}
+.guest-input{
+    grid-area: guest;
+    color: #717171;
+    font-size: 15px;
+}
+.filter-menu{
+    margin: auto;
+    border: .05px solid #a29797;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 img {
@@ -17,6 +56,7 @@ img {
     display: flex;
     flex-direction: row;
     padding: 0px;
+    justify-content: space-between;
 
 }
 .description, .availability{
@@ -33,6 +73,7 @@ img {
     font-size: 4px;
 }
 
+
 .badge{
     background-color: #fbf7f7;
     float: left;
@@ -48,10 +89,17 @@ img {
     position: absolute;
     float: right;
     color: #717171;
-    margin-left: 370px;
-    margin-top: 10px;
+    margin-left: 85vw;
+    margin-top: 13px;
     opacity: 90%;
     text-shadow: -2px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -2px #ffffff;
 }
 
-
+@media (min-width: 665px ) {
+    .heart-btn{
+        margin-left: 92vw;
+    }
+    .top-search-bar{
+        width: 85%;
+    }
+}
