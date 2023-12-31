@@ -1,19 +1,19 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 # Pre-bootcamp Warm-up
-
-  ## Table of Content 
-- [Description](#Description)
-- [Installation](#Installation)
-- [Visuals](#Visuals)
-- [License](#License)
-- [Links](#Links)
-- [Questions](#Questions)
-
-## Description
 The purpose of this project is to keep the bootcampers' HTML and CSS skills sharp by aiming to create a copy of the Airbnb homepage user interface, following the First-Mobile-Design methodology, utilizing HTML and CSS.
 
-## Installation 
+  ## Table of Content 
+- [Configuration](#Configuration)
+- [Visuals](#Visuals)
+- [Links](#Links)
+- [Credits](#Credits)
+- [License](#License)
+- [Questions](#Questions)
+
+## Configuration 
+Below are some possible options to use in building this project. 
+
 Click [HERE](https://getbootstrap.com/docs/5.3/getting-started/introduction/) to see instruction on how to add bootstrap compiler.
 
 Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see instruction on how to add Font-awesome toolkit.
@@ -21,9 +21,6 @@ Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see
 ## Visuals
 
 #### Image of the project on mobile viewport.
- 
-## License
-This project is covered by MIT.
 
 ## Links
 
@@ -36,6 +33,12 @@ This project is covered by MIT.
 ### URL for resources
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
 - https://www.w3schools.com/icons/fontawesome_icons_intro.asp 
+
+## Credits
+Credits to [Airbnb public website](https://www.airbnb.co.uk/) team.
+
+## License
+This project is covered by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) .
 
 ## Questions
 For questions and comments please contact the following details:
