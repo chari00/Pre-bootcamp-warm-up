@@ -83,4 +83,11 @@ img {
     text-shadow: -2px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -2px #ffffff;
 }
 
-
+@media (min-width: 665px ) {
+    .heart-btn{
+        margin-left: 92vw;
+    }
+    .top-search-bar{
+        width: 85%;
+    }
+}
