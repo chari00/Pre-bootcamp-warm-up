@@ -275,6 +275,43 @@ footer{
     font-size: 0.875rem;
 
 }
+.copyright-currency{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.english{
+    margin-left: 10px
+}
+.pound-symbol{
+    margin-left: 18px;
+}
+.gbp{
+    margin-left: 3px;
+}
+.copyright-footer, .sitemap-footer{
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.copyright-currency, .copyright-footer, .sitemap-footer{
+    color: #222222;
+    
+}
+.sitemap-footer >p > i{
+    margin: 3px;
+    padding: 3px;
+}
+.sitemap-footer{
+    padding-bottom: 25px;
+}
+
+
+
+
+
 
 @media (min-width: 375px) {
     .heart-btn{
