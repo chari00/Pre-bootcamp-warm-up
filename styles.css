@@ -1,9 +1,15 @@
 * {
-    box-sizing: border-box;
     font-family: 'lucida grande', tahoma, verdana, arial,'sans-serif';
-    font-size: 14px;
+    font-size: 16px;
+    padding: 0;
     margin: 0;
-   
+    
+}
+html{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+
 }
 .container{
     position: relative;
@@ -189,6 +195,23 @@ ul {
     text-shadow: -2px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -2px #ffffff;
 }
 
+.exploring{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 15px;
+    align-items: center;
+
+}
+.show-more-btn{
+    background-color: rgb(38, 37, 37);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40%;
+    font-weight: 700;
+}
 /* @media (min-width: 768px ) {
     .heart-btn{
         margin-left: 91vw;
