@@ -1,6 +1,6 @@
 * {
     font-family: 'lucida grande', tahoma, verdana, arial,'sans-serif';
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
     
@@ -17,7 +17,6 @@ main {
     padding-right: 20px;
 
 } 
-
 
 .fixed {
     position: fixed;
@@ -82,17 +81,24 @@ ul {
     margin: 0;
     padding: 0;
 }
+li:hover{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+
+}
+
 .menu-list {
     margin-right: 20px;
     padding-top: 7px;
 }
 
-
 .menu-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "park island countryside cabins";
-
 
 }
 .menu-item img{
@@ -137,16 +143,6 @@ ul {
     border-radius: 12px;
         
 }
-/* .divider {
-    padding-top: 2px;
-    border-bottom: .5px solid red;
-    width: 90%;
-    margin-bottom: 5px;
-}
-
-.card{
-    position: relative;
-} */
 
 .card-body{
     display: flex;
@@ -155,11 +151,11 @@ ul {
     justify-content: space-between;
 
 }
-.description, .availability, .island, .park, .cabins, .countryside{
+.description, .availability, .island, .park, .cabins, .countryside , .footer-menu-list{
     color: #717171;
 }
 .price{
-    font-weight: bold;
+    font-weight: 550;
 
 }
 .total-text{
@@ -206,8 +202,8 @@ ul {
 .show-more-btn{
     background-color: rgb(38, 37, 37);
     color: white;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 15px;
     width: 35%;
     font-weight: 550;
 }
@@ -221,6 +217,100 @@ footer{
     background-color: #f7f7f7;
     width: 100%;
 }
+.footer-title{
+    display: block;
+    font-size: 25px;
+    font-weight: 530;
+    padding: 20px;
+    padding-top: 30px;
+}
+.footer-menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15px;
+}
+.popular > div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.popular > div > h3{
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+.popular > div > p{
+    font-weight: 200;
+    font-size: 13px;
+}
+.popular > .show-more{
+    display: flex;
+    flex-direction: row;
+      
+}
+.show-more > svg{
+    padding: 4px;
+}
+
+.support > h3, .hosting > h3, .airbnb > h3{
+    padding-left: 20px;
+}
+
+.support > .support-list, .hosting > .hosting-list, .airbnb > .airbnb-list{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.support-list-item, .hosting-list-item, .airbnb-list-item {
+    padding: 5px;
+    color: #222222;
+    font-weight: 400;
+    font-size: 0.875rem;
+
+}
+.copyright-currency{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.english{
+    margin-left: 10px
+}
+.pound-symbol{
+    margin-left: 18px;
+}
+.gbp{
+    margin-left: 3px;
+}
+.copyright-footer, .sitemap-footer{
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.copyright-currency, .copyright-footer, .sitemap-footer{
+    color: #222222;
+    
+}
+.sitemap-footer >p > i{
+    margin: 3px;
+    padding: 3px;
+}
+.sitemap-footer{
+    padding-bottom: 25px;
+}
+
+
+
+
 
 
 @media (min-width: 375px) {
