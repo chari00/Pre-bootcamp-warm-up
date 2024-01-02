@@ -152,7 +152,7 @@ li:hover{
     justify-content: space-between;
 
 }
-.description, .availability, .island, .park, .cabins, .countryside , .footer-menu-list{
+.description, .availability, .island, .park, .cabins, .countryside, .footer-menu-list {
     color: #717171;
 }
 .price{
@@ -230,6 +230,10 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 20px;
+}
+.footer-menu-item{
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .popular{
@@ -317,6 +321,11 @@ footer{
     margin-top: 120px;
     z-index: 1;
 }
+.footer-divider {
+     border-bottom: .5px solid rgb(196, 194, 194);
+     margin-left: 20px;
+     margin-right: 20px;
+ }
 
 
 
