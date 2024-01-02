@@ -1,6 +1,6 @@
 * {
     font-family: 'lucida grande', tahoma, verdana, arial,'sans-serif';
-    font-size: 16px;
+    font-size: 14px;
     padding: 0;
     margin: 0;
     
@@ -85,6 +85,7 @@ li:hover{
     color: black;
     font-weight: 600;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
     cursor: pointer;
 
 }
@@ -150,11 +151,11 @@ li:hover{
     justify-content: space-between;
 
 }
-.description, .availability, .island, .park, .cabins, .countryside{
+.description, .availability, .island, .park, .cabins, .countryside , .footer-menu-list{
     color: #717171;
 }
 .price{
-    font-weight: bold;
+    font-weight: 550;
 
 }
 .total-text{
@@ -216,7 +217,20 @@ footer{
     background-color: #f7f7f7;
     width: 100%;
 }
-
+.footer-title{
+    border: 1px dashed red;
+    display: block;
+    font-size: 25px;
+    font-weight: 530;
+    padding: 20px;
+    padding-top: 30px;
+}
+.footer-menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
 
 @media (min-width: 375px) {
     .heart-btn{
