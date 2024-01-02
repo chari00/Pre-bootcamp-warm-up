@@ -33,6 +33,8 @@ Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see
 ### URL for resources
 - https://getbootstrap.com/docs/5.3/getting-started/introduction/ 
 - https://www.w3schools.com/icons/fontawesome_icons_intro.asp 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:hover 
+- https://www.w3schools.com/cssref/pr_text_text-decoration.php 
 
 ## Credits
 Credits to [Airbnb public website](https://www.airbnb.co.uk/) team.
