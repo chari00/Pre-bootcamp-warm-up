@@ -18,7 +18,6 @@ main {
 
 } 
 
-
 .fixed {
     position: fixed;
     background-color: #ffffff;
@@ -82,17 +81,23 @@ ul {
     margin: 0;
     padding: 0;
 }
+li:hover{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
 .menu-list {
     margin-right: 20px;
     padding-top: 7px;
 }
 
-
 .menu-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "park island countryside cabins";
-
 
 }
 .menu-item img{
@@ -137,16 +142,6 @@ ul {
     border-radius: 12px;
         
 }
-/* .divider {
-    padding-top: 2px;
-    border-bottom: .5px solid red;
-    width: 90%;
-    margin-bottom: 5px;
-}
-
-.card{
-    position: relative;
-} */
 
 .card-body{
     display: flex;
