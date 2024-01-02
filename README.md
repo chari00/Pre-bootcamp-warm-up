@@ -20,7 +20,8 @@ Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see
 
 ## Visuals
 
-#### Image of the project on mobile viewport.
+#### Image of the project on 425px min-width mobile viewport.
+![425px min-width mobile viewport](assets/images/425px-mobile-view-port.png)
 
 ## Links
 
