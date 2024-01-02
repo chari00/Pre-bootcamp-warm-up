@@ -11,8 +11,9 @@ html{
     height: 100vh;
 
 }
+
 main {
-    padding-top: 130px;
+    padding-top: 145px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -177,8 +178,8 @@ li:hover{
     margin-top: 10px;
     margin-left: 10px;
     padding: 5px 10px;
-    font-size: 14px;
-    font-weight: 550;
+    font-size: 13px;
+    font-weight: 500;
 }
 .heart-btn{
     position: absolute;
@@ -309,6 +310,13 @@ footer{
 }
 
 
+.divider-top {
+   position: fixed;
+    border: 1.5px solid rgb(196, 194, 194);
+    width: 100vw;
+    margin-top: 120px;
+    z-index: 1;
+}
 
 
 
