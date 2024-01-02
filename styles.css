@@ -232,6 +232,33 @@ footer{
     padding-bottom: 20px;
 }
 
+.popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15px;
+}
+.popular > div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.popular > div > h3{
+    font-weight: 530;
+    
+}
+.popular > div > p{
+    font-weight: 200;
+    font-size: 13px;
+}
+.popular > .show-more{
+    display: flex;
+    flex-direction: row;
+      
+}
+.show-more > svg{
+    padding: 4px;
+}
+
 @media (min-width: 375px) {
     .heart-btn{
         margin-left: 83vw;
