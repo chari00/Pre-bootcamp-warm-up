@@ -24,7 +24,7 @@ Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see
 ![425px min-width mobile viewport](assets/images/425px-mobile-view-port.png)
 
 #### Screen recording on mobile phone.
-<video src="mobileview-recording.mp4" controls title="Title"></video>
+<video src="assets/images/mobileview-recording.mp4" controls title="Title"></video>
 
 ## Links
 
