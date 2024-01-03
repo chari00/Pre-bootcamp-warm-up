@@ -23,8 +23,11 @@ Click [HERE](https://www.w3schools.com/icons/fontawesome_icons_intro.asp) to see
 #### Image of the project on 425px min-width mobile viewport.
 ![425px min-width mobile viewport](assets/images/425px-mobile-view-port.png)
 
-#### Screen recording on mobile phone.
-<video src="assets/images/mobileview-recording.mp4" controls title="Title"></video>
+#### Short video clip of the project on mobile phone.
+
+
+https://github.com/chari00/Pre-bootcamp-warm-up/assets/116744496/9066d94f-4b6a-475f-847b-0ff26dbb979e
+
 
 ## Links
 
