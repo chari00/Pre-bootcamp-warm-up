@@ -210,6 +210,7 @@ li:hover {
   padding: 10px;
 }
 
+
 footer {
   background-color: #f7f7f7;
   width: 100%;
@@ -326,7 +327,13 @@ footer {
   border-bottom: 0.5px solid rgb(196, 194, 194);
   margin: 20px;
   margin-top: 10px;
+} 
+.hide{
+    display: none;
 }
+
+
+
 
 @media (min-width: 375px) {
   * {
@@ -345,12 +352,16 @@ footer {
     padding: 10;
     margin-bottom: 10px;
   }
+ 
 
 }
 @media (min-width: 425px) {
   .heart-btn {
     margin-left: 85vw;
   }
+ 
+ 
+  
 }
 @media (min-width: 768px) {
   .heart-btn {
@@ -389,9 +400,15 @@ footer {
   }
   .show-more-btn{
     margin: 10px;
+    width: 25%;
   }
   .footer-menu-item {
     font-size: 0.95rem;
   }
+  .hide{
+    display: inline;
+  }
+ 
+ 
 
 }
