@@ -350,3 +350,46 @@ footer {
     margin-left: 85vw;
   }
 }
+@media (min-width: 768px) {
+  .heart-btn {
+    position: absolute;
+    margin-left: 325px;
+  }
+  .badge{
+    margin-left: 35px;
+  }
+  .top-search-bar {
+    width: 95%;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .card{
+    width: 45vw;
+  }
+  .img-container > img {
+  width: 95%;
+  height: 350px;
+  margin-left: 25px;
+  }
+  .img-container{
+    position: relative;
+  }
+  .card-body{
+    margin-left: 35px;
+ 
+  }
+  .info-group{
+    margin-left: 35px;
+  }
+  .show-more-btn{
+    margin: 10px;
+  }
+  .footer-menu-item {
+    font-size: 0.95rem;
+  }
+
+}
