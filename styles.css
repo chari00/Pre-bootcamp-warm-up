@@ -336,12 +336,14 @@ footer {
     margin-left: 83vw;
   }
   .exploring > h3 {
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 550;
+    font-size: 17px;
   }
   .show-more-btn {
-    width: 20%;
-    font-weight: 550;
+    width: 45%;
+    font-weight: 500;
+    padding: 10;
+    margin-bottom: 10px;
   }
 
 }
