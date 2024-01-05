@@ -405,10 +405,24 @@ footer {
   .footer-menu-item {
     font-size: 0.95rem;
   }
-  .hide{
+  .show{
     display: inline;
   }
- 
- 
+  .copyright-footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
+@media (min-width: 1024px) {
+  .heart-btn {
+    position: absolute;
+    margin-left: 290px;
+  }
+  .card{
+    width: 30vw;
+  }
 
 }
+
