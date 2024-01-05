@@ -331,6 +331,9 @@ footer {
 .hide{
     display: none;
 }
+.popular > div.hide{
+  display: none;
+}
 
 
 
@@ -408,6 +411,9 @@ footer {
   .show{
     display: inline;
   }
+  .popular > div.show{
+    display: inline;
+  }
   .copyright-footer-container{
     display: flex;
     flex-direction: column;
@@ -423,6 +429,7 @@ footer {
   .card{
     width: 30vw;
   }
+
 
 }
 
