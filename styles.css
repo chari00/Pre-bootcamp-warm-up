@@ -414,10 +414,10 @@ div.show {
     align-items: center;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 944px) {
   .heart-btn {
     position: absolute;
-    margin-left: 290px;
+    margin-left: 273px;
   }
   .card {
     width: 30vw;
@@ -431,5 +431,26 @@ div.show {
   .mid-footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heart-btn {
+    margin-left: 265px;
+  }
+  .card {
+    width: 23vw;
+  }
+  .img-container > img {
+    height: 310px;
+    margin-left: 30px;
+  }
+  .popular {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .copyright-footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
   }
 }
