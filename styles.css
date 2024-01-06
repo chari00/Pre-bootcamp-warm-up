@@ -363,7 +363,7 @@ div.show {
 @media (min-width: 768px) {
   .heart-btn {
     position: absolute;
-    margin-left: 325px;
+    margin-left: 42vw;
   }
   .badge {
     margin-left: 35px;
@@ -382,7 +382,7 @@ div.show {
   }
   .img-container > img {
     width: 95%;
-    height: 350px;
+    height: 35vh;
     margin-left: 25px;
   }
   .img-container {
@@ -414,13 +414,17 @@ div.show {
     align-items: center;
   }
 }
-@media (min-width: 944px) {
+@media (min-width: 1024px) {
   .heart-btn {
     position: absolute;
-    margin-left: 273px;
+    margin-left: 29vw;
   }
   .card {
     width: 30vw;
+  }
+  .img-container > img {
+    height: 30vh;
+    margin-left: 33px;
   }
   .popular {
     grid-template-columns: 1fr 1fr 1fr;
@@ -436,13 +440,13 @@ div.show {
 
 @media (min-width: 1200px) {
   .heart-btn {
-    margin-left: 265px;
+    margin-left: 22vw;
   }
   .card {
     width: 23vw;
   }
   .img-container > img {
-    height: 310px;
+    height: 30vh;
     margin-left: 30px;
   }
   .popular {
