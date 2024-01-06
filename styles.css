@@ -14,7 +14,7 @@ main {
   padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
-  }
+}
 
 .fixed {
   position: fixed;
@@ -210,7 +210,6 @@ li:hover {
   padding: 10px;
 }
 
-
 footer {
   background-color: #f7f7f7;
   width: 100%;
@@ -327,13 +326,16 @@ footer {
   border-bottom: 0.5px solid rgb(196, 194, 194);
   margin: 20px;
   margin-top: 10px;
-} 
-.hide{
-    display: none;
 }
-
-
-
+.hide {
+  display: none;
+}
+.popular > div.hide {
+  display: none;
+}
+div.show {
+  display: block;
+}
 
 @media (min-width: 375px) {
   * {
@@ -352,63 +354,107 @@ footer {
     padding: 10;
     margin-bottom: 10px;
   }
- 
-
 }
 @media (min-width: 425px) {
   .heart-btn {
     margin-left: 85vw;
   }
- 
- 
-  
 }
 @media (min-width: 768px) {
   .heart-btn {
     position: absolute;
-    margin-left: 325px;
+    margin-left: 42vw;
   }
-  .badge{
+  .badge {
     margin-left: 35px;
   }
   .top-search-bar {
     width: 95%;
   }
-  main{
+  main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 30px;
   }
-  .card{
+  .card {
     width: 45vw;
   }
   .img-container > img {
-  width: 95%;
-  height: 350px;
-  margin-left: 25px;
+    width: 95%;
+    height: 35vh;
+    margin-left: 25px;
   }
-  .img-container{
+  .img-container {
     position: relative;
   }
-  .card-body{
-    margin-left: 35px;
- 
-  }
-  .info-group{
+  .card-body {
     margin-left: 35px;
   }
-  .show-more-btn{
+  .info-group {
+    margin-left: 35px;
+  }
+  .show-more-btn {
     margin: 10px;
     width: 25%;
   }
   .footer-menu-item {
     font-size: 0.95rem;
   }
-  .hide{
+  .show {
     display: inline;
   }
- 
- 
+  .popular > div.show {
+    display: inline;
+  }
 
+  .copyright-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .heart-btn {
+    position: absolute;
+    margin-left: 29vw;
+  }
+  .card {
+    width: 30vw;
+  }
+  .img-container > img {
+    height: 30vh;
+    margin-left: 33px;
+  }
+  .popular {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.hide {
+    display: none;
+  }
+  .mid-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .heart-btn {
+    margin-left: 22vw;
+  }
+  .card {
+    width: 23vw;
+  }
+  .img-container > img {
+    height: 30vh;
+    margin-left: 30px;
+  }
+  .popular {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .copyright-footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
 }
