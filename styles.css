@@ -100,7 +100,7 @@ li:hover {
   margin: auto;
   opacity: 70%;
 }
-.park {
+.park, .island, .countryside, .cabins {
   display: grid;
   align-content: center;
   justify-content: center;
@@ -108,24 +108,15 @@ li:hover {
   grid-area: park;
 }
 .island {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  font-size: 12px;
+ 
   grid-area: island;
 }
 .countryside {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  font-size: 12px;
+  
   grid-area: countryside;
 }
 .cabins {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-  font-size: 12px;
+  
   grid-area: cabins;
 }
 
@@ -151,6 +142,25 @@ li:hover {
 .park,
 .cabins,
 .countryside,
+.amazing-pools,
+.barns,
+.beachfront,
+.bedandbreakfast,
+.boats,
+.camping,
+.castles,
+.caves,
+.designs,
+.domes,
+.farms,
+.houseboats,
+.iconic-cities,
+.lakefront,
+.mansions,
+.tiny-homes,
+.treehouse,
+.vineyard,
+.yurts,
 .footer-menu-list {
   color: #717171;
 }
@@ -377,6 +387,34 @@ div.show {
     flex-direction: row;
     margin-bottom: 30px;
   }
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "park island countryside cabins pools barns beachfront";
+  }
+  .menu-item img {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    opacity: 70%;
+  }
+  .amazing-pools,
+.barns,
+.beachfront {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .amazing-pools{
+    grid-area: pools;
+  }
+.barns {
+  grid-area: barns;
+}
+.beachfront {
+  grid-area: beachfront;
+}
   .card {
     width: 45vw;
   }
@@ -401,8 +439,24 @@ div.show {
   .footer-menu-item {
     font-size: 0.95rem;
   }
-  .show {
-    display: inline;
+ 
+  .bedandbreakfast,
+  .boats,
+  .camping,
+  .castles,
+  .caves,
+  .designs,
+  .domes,
+  .farms,
+  .houseboats,
+  .iconic-cities,
+  .lakefront,
+  .mansions,
+  .tiny-homes,
+  .treehouse,
+  .vineyard,
+  .yurts{
+    display: none;
   }
   .popular > div.show {
     display: inline;
@@ -450,7 +504,7 @@ div.show {
     margin-left: 30px;
   }
   .popular {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .copyright-footer-container {
     display: flex;
