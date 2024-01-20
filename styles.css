@@ -392,12 +392,7 @@ div.show {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "park island countryside cabins pools barns beachfront";
   }
-  .menu-item img {
-    height: 30px;
-    width: 30px;
-    margin: auto;
-    opacity: 70%;
-  }
+
   .amazing-pools,
 .barns,
 .beachfront {
@@ -406,15 +401,7 @@ div.show {
     justify-content: center;
     font-size: 12px;
   }
-  .amazing-pools{
-    grid-area: pools;
-  }
-.barns {
-  grid-area: barns;
-}
-.beachfront {
-  grid-area: beachfront;
-}
+
   .card {
     width: 45vw;
   }
@@ -438,6 +425,7 @@ div.show {
   }
   .footer-menu-item {
     font-size: 0.95rem;
+    display: inline;
   }
  
   .bedandbreakfast,
@@ -461,6 +449,7 @@ div.show {
   .popular > div.show {
     display: inline;
   }
+ 
 
   .copyright-footer-container {
     display: flex;
@@ -473,6 +462,37 @@ div.show {
     position: absolute;
     margin-left: 29vw;
   }
+  
+  .caves,
+  .designs,
+  .domes,
+  .farms,
+  .houseboats,
+  .iconic-cities,
+  .lakefront,
+  .mansions,
+  .tiny-homes,
+  .treehouse,
+  .vineyard,
+  .yurts{
+    display: none;
+  }
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "park island countryside cabins pools barns beachfront bnb boats camping castles";
+  }
+
+  .bedandbreakfast,
+  .boats,
+  .camping,
+  .castles{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+ 
   .card {
     width: 30vw;
   }
