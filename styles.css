@@ -161,7 +161,10 @@ li:hover {
 .treehouse,
 .vineyard,
 .yurts,
-.footer-menu-list {
+.footer-menu-list,
+.btn-explore,
+.btn-wishlist,
+.btn-login {
   color: #717171;
 }
 .price {
@@ -346,6 +349,48 @@ footer {
 div.show {
   display: block;
 }
+.bottom-menu-bar{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+
+}
+.explore, 
+.wishlist,
+.login {
+  padding: 5px;
+}
+.btn-explore,
+.btn-wishlist,
+.btn-login {
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+}
+
+.login-text,
+.wishlist-text,
+.explore-text {
+  font-size: 12px;
+}
+.btn-explore:hover {
+  color: red;
+  font-weight: 550;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+.btn-wishlist:hover {
+  color: red;
+  font-weight: 550;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+.btn-login:hover {
+  color: red;
+  font-weight: 550;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
 
 @media (min-width: 375px) {
   * {
@@ -455,6 +500,9 @@ div.show {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .bottom-menu-bar {
+    display: none;
   }
 }
 @media (min-width: 1024px) {
